@@ -1,0 +1,155 @@
+/* styles.css */
+
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #about {
+    background-color: #ecf0f1;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  #about img {
+    height: 350px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  #skills {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  #skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #skills li {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  #projects {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+ #m1{
+    width: 400px;
+    height: 300px;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project p {
+    margin-bottom: 1rem;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #resume, #contact {
+    background-color: #ecf0f1;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  #resume h2, #contact h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  @media (max-width: 1200px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    #about img {
+      width: 150px;
+    }
+  
+    #skills li {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    #about img {
+      width: 120px;
+    }
+  
+    #skills ul {
+      flex-direction: column;
+    }
+  
+    #skills li {
+      margin: 0.3rem;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.8rem;
+    }
+  
+    .project h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
